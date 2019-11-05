@@ -5,8 +5,8 @@ body {
 .cherryBlossomContainer {
     width: 30vw;
     height: 80vh;
-    background:black;
-	display:flex;
+    background: black;
+	display: flex;
     justify-content:center;
     position: relative;
 }
@@ -14,7 +14,7 @@ body {
 .cherryBlossom {
     width: 5vw;
     height: 5vh;
-    display:flex;
+    display: flex;
     background-color: orchid;
     position: relative;
 }
