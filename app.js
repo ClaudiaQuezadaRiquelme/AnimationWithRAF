@@ -38,19 +38,13 @@ const moveFromTopToDownSin = (location, time, elementID) => {
       pos++;
       xPos = Math.round(50 * Math.sin(angle));
       angle += .1;
-      yPos += 5;
       
       document.getElementById(elemID).style.top = pos + 'vh';
-      document.getElementById(elemID).style.transform = `translate(${xPos}px, ${yPos}px)`;
-
-      if (Math.abs(yPos) >= 900) {
-        yPos = -500;
-      }
+      document.getElementById(elemID).style.transform = `translateX(${xPos}px)`;
     
       if (angle > 2 * Math.PI) {
         angle = 0;
       }
-
 
       globalIDsin = requestAnimationFrame(moveFromTopToDownSin(pos, setTime, elemID));
     }, setTime)
