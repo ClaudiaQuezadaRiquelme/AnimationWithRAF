@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+.cherryBlossomContainer {
+    width: 30vw;
+    height: 80vh;
+    background:black;
+	display:flex;
+    justify-content:center;
+    position: relative;
+}
+
+.cherryBlossom {
+    width: 5vw;
+    height: 5vh;
+    display:flex;
+    background-color: orchid;
+    position: relative;
+}
+
+.stop {
+    background: red;
+    width: 30vw;
+    height: 5vh;
+}
+
+.division {
+    width: 5vw;
+}
